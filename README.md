@@ -1,29 +1,24 @@
-# bsui
+## Install
 
-## Project setup
-```
-yarn install
-```
-
-### Compiles and hot-reloads for development
-```
-yarn run serve
+```shell
+npm install @blogscn/bsui -S
 ```
 
-### Compiles and minifies for production
-```
-yarn run build
-```
+## Quick Start
 
-### Run your tests
-```
-yarn run test
-```
+```javascript
+import Vue from "vue";
+import BsUI from "@blogscn/bsui";
 
-### Lints and fixes files
-```
-yarn run lint
-```
+Vue.use(BsUI);
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+// or
+import {
+  BsTest
+  // ...
+} from "bsui";
+
+Vue.component(BsTest.name, Select);
+//or
+Vue.use(BsTest);
+```
