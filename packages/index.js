@@ -1,6 +1,8 @@
 import BsTest from "./test";
+//吸顶组件
+import BsSticky from "./sticky";
 
-const components = [BsTest];
+const components = [BsTest, BsSticky];
 
 const install = Vue => {
   if (install.installed) return;
@@ -8,7 +10,7 @@ const install = Vue => {
   components.map(component => {
     Vue.component(component.name, component);
     //或者
-    Vue.use(component);
+    // Vue.use(component);
   });
 };
 
