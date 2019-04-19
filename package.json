@@ -16,7 +16,8 @@
     "lib": "vue-cli-service build --target lib --name bsui --dest lib packages/index.js"
   },
   "dependencies": {
-    "vue": "^2.6.6"
+    "vue": "^2.6.6",
+    "vue-router": "^3.0.5"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.5.0",
